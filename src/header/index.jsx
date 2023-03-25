@@ -1,8 +1,11 @@
 import React from 'react';
+import logo from "./New Zealand.png";
 
 const Header = () => {
   return (
-    <div className='header'></div>
+    <Header>
+      <img class="logo" src={logo} />
+    </Header>
   )
 }
 
