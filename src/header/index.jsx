@@ -3,9 +3,9 @@ import logo from "./New Zealand.png";
 
 const Header = () => {
   return (
-    <Header>
-      <img class="logo" src={logo} />
-    </Header>
+    <header>
+      <img class="logo" src={logo}/>
+    </header>
   )
 }
 
